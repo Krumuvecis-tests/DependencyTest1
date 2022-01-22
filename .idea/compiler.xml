@@ -9,5 +9,8 @@
         <module name="DependencyTest1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DependencyTest2" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
