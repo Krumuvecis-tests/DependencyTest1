@@ -1,12 +1,20 @@
 # Introduction
 
 This is "Dependency Test 1".
-This repository depends on [krumuvecis/DependencyTest2](https://www.github.com/krumuvecis/DependencyTest2).  
-Built using Maven.
+
+Built using Maven and JitPack.
+
+This repository depends on:
+* [Krumuvecis/DependencyTest2](https://www.github.com/Krumuvecis/DependencyTest2).
+* [Krumuvecis/FileHandler](https://www.github.com/Krumuvecis/FileHandler).
+
 
 # Functionality
 
 Simple functional testing. (jUnit5)
+
+Looks like everything works as intended.
+
 
 # Further reading
 
