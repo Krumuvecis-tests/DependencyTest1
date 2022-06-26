@@ -1,5 +1,5 @@
-import fileHandler.FileHandler;
-import fileHandler.TextConversion;
+//import fileHandler.FileHandler;
+//import fileHandler.TextConversion;
 import main.Main;
 
 import org.junit.jupiter.api.BeforeAll;
@@ -34,6 +34,7 @@ public class Test1 {
         assertEquals(expected, actual, "Multiplication error");
     }
 
+    /*
     @Test
     void fileHandlerTest() {
         String
@@ -53,4 +54,5 @@ public class Test1 {
 
         assertLinesMatch(expected, actual, "FileHandler not working.");
     }
+    */
 }

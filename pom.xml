@@ -11,17 +11,30 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
-        <junit.jupiter.version>5.8.2</junit.jupiter.version>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <junit.jupiter.version>5.9.0-M1</junit.jupiter.version>
     </properties>
 
+
     <repositories>
+        <!--
+        <repository>
+            <id>DependencyTest2</id>
+            <url>https://github.com/Krumuvecis/DependencyTest2/releases/tag/0.4.3</url>
+        </repository>
+        -->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
         </repository>
     </repositories>
+
 
     <dependencies>
         <dependency>
@@ -39,25 +52,28 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
+            <version>3.0.0-M7</version>
         </dependency>
+
         <dependency>
             <groupId>com.github.Krumuvecis</groupId>
             <artifactId>DependencyTest2</artifactId>
-            <version>0.4.3</version>
+            <version>0.5.4</version>
         </dependency>
+        <!--
         <dependency>
             <groupId>com.github.Krumuvecis</groupId>
             <artifactId>FileHandler</artifactId>
             <version>0.1.3</version>
         </dependency>
+        -->
     </dependencies>
 
     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.0.0-M7</version>
             </plugin>
         </plugins>
     </build>
