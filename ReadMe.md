@@ -2,7 +2,9 @@
 
 This is "Dependency Test 1".
 
-Built using Maven and JitPack.
+Built using Maven.
+
+[![](https://jitpack.io/v/Krumuvecis/DependencyTest2.svg)](https://jitpack.io/#Krumuvecis/DependencyTest2)
 
 This repository depends on:
 * [Krumuvecis/DependencyTest2](https://www.github.com/Krumuvecis/DependencyTest2).

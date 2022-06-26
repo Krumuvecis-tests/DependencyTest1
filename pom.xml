@@ -5,9 +5,9 @@
             http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>groupID</groupId>
+    <groupId>com.github.Krumuvecis</groupId>
     <artifactId>DependencyTest1</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.2.2</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,25 +16,19 @@
         <junit.jupiter.version>5.9.0-M1</junit.jupiter.version>
     </properties>
 
-
     <repositories>
-        <!--
-        <repository>
-            <id>DependencyTest2</id>
-            <url>https://github.com/Krumuvecis/DependencyTest2/releases/tag/0.4.3</url>
-        </repository>
-        -->
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+            <!--
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
+            -->
         </repository>
     </repositories>
-
 
     <dependencies>
         <dependency>
@@ -77,5 +71,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
